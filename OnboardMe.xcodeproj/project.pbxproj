@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9437ADA2D13EFDB004AB443 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9437AD92D13EFDB004AB443 /* ForgotPasswordView.swift */; };
+		B9A762642D1BC305007EA658 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A762632D1BC305007EA658 /* CreateAccountView.swift */; };
 		B9C23F8F2CD78A5C00254F3F /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C23F8E2CD78A5C00254F3F /* TestApp.swift */; };
-		B9C23F912CD78A5C00254F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C23F902CD78A5C00254F3F /* ContentView.swift */; };
+		B9C23F912CD78A5C00254F3F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C23F902CD78A5C00254F3F /* SignInView.swift */; };
 		B9C23F932CD78A5E00254F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C23F922CD78A5E00254F3F /* Assets.xcassets */; };
 		B9C23F962CD78A5E00254F3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C23F952CD78A5E00254F3F /* Preview Assets.xcassets */; };
+		B9EC1DCF2D1EF6EE0037D55E /* ForgotPasswordVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EC1DCE2D1EF6EE0037D55E /* ForgotPasswordVerificationView.swift */; };
+		B9EC1DD12D1EFF230037D55E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EC1DD02D1EFF230037D55E /* WelcomeView.swift */; };
+		B9FFA5562D1C6E45005BE9E9 /* ForgotPasswordSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFA5552D1C6E44005BE9E9 /* ForgotPasswordSuccessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9C23F8B2CD78A5C00254F3F /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9437AD92D13EFDB004AB443 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		B9A762632D1BC305007EA658 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		B9C23F8B2CD78A5C00254F3F /* OnboardMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C23F8E2CD78A5C00254F3F /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
-		B9C23F902CD78A5C00254F3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9C23F902CD78A5C00254F3F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B9C23F922CD78A5E00254F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9C23F952CD78A5E00254F3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9EC1DCE2D1EF6EE0037D55E /* ForgotPasswordVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVerificationView.swift; sourceTree = "<group>"; };
+		B9EC1DD02D1EFF230037D55E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B9FFA5552D1C6E44005BE9E9 /* ForgotPasswordSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSuccessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,28 +45,34 @@
 		B9C23F822CD78A5C00254F3F = {
 			isa = PBXGroup;
 			children = (
-				B9C23F8D2CD78A5C00254F3F /* Test */,
+				B9C23F8D2CD78A5C00254F3F /* Onboardme */,
 				B9C23F8C2CD78A5C00254F3F /* Products */,
+				B9FEFEAA2D22686B00760DCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B9C23F8C2CD78A5C00254F3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9C23F8B2CD78A5C00254F3F /* Test.app */,
+				B9C23F8B2CD78A5C00254F3F /* OnboardMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9C23F8D2CD78A5C00254F3F /* Test */ = {
+		B9C23F8D2CD78A5C00254F3F /* Onboardme */ = {
 			isa = PBXGroup;
 			children = (
 				B9C23F8E2CD78A5C00254F3F /* TestApp.swift */,
-				B9C23F902CD78A5C00254F3F /* ContentView.swift */,
+				B9EC1DD02D1EFF230037D55E /* WelcomeView.swift */,
+				B9C23F902CD78A5C00254F3F /* SignInView.swift */,
+				B9A762632D1BC305007EA658 /* CreateAccountView.swift */,
+				B9437AD92D13EFDB004AB443 /* ForgotPasswordView.swift */,
+				B9EC1DCE2D1EF6EE0037D55E /* ForgotPasswordVerificationView.swift */,
+				B9FFA5552D1C6E44005BE9E9 /* ForgotPasswordSuccessView.swift */,
 				B9C23F922CD78A5E00254F3F /* Assets.xcassets */,
 				B9C23F942CD78A5E00254F3F /* Preview Content */,
 			);
-			path = Test;
+			path = Onboardme;
 			sourceTree = "<group>";
 		};
 		B9C23F942CD78A5E00254F3F /* Preview Content */ = {
@@ -67,12 +83,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B9FEFEAA2D22686B00760DCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9C23F8A2CD78A5C00254F3F /* Test */ = {
+		B9C23F8A2CD78A5C00254F3F /* OnboardMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9C23F992CD78A5E00254F3F /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = B9C23F992CD78A5E00254F3F /* Build configuration list for PBXNativeTarget "OnboardMe" */;
 			buildPhases = (
 				B9C23F872CD78A5C00254F3F /* Sources */,
 				B9C23F882CD78A5C00254F3F /* Frameworks */,
@@ -82,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = OnboardMe;
 			productName = Test;
-			productReference = B9C23F8B2CD78A5C00254F3F /* Test.app */;
+			productReference = B9C23F8B2CD78A5C00254F3F /* OnboardMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9C23F862CD78A5C00254F3F /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = B9C23F862CD78A5C00254F3F /* Build configuration list for PBXProject "OnboardMe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9C23F8A2CD78A5C00254F3F /* Test */,
+				B9C23F8A2CD78A5C00254F3F /* OnboardMe */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C23F912CD78A5C00254F3F /* ContentView.swift in Sources */,
+				B9EC1DCF2D1EF6EE0037D55E /* ForgotPasswordVerificationView.swift in Sources */,
+				B9C23F912CD78A5C00254F3F /* SignInView.swift in Sources */,
+				B9FFA5562D1C6E45005BE9E9 /* ForgotPasswordSuccessView.swift in Sources */,
 				B9C23F8F2CD78A5C00254F3F /* TestApp.swift in Sources */,
+				B9EC1DD12D1EFF230037D55E /* WelcomeView.swift in Sources */,
+				B9A762642D1BC305007EA658 /* CreateAccountView.swift in Sources */,
+				B9437ADA2D13EFDB004AB443 /* ForgotPasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9C23F862CD78A5C00254F3F /* Build configuration list for PBXProject "Test" */ = {
+		B9C23F862CD78A5C00254F3F /* Build configuration list for PBXProject "OnboardMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9C23F972CD78A5E00254F3F /* Debug */,
@@ -327,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9C23F992CD78A5E00254F3F /* Build configuration list for PBXNativeTarget "Test" */ = {
+		B9C23F992CD78A5E00254F3F /* Build configuration list for PBXNativeTarget "OnboardMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9C23F9A2CD78A5E00254F3F /* Debug */,
