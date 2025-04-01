@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/e99e2649-d695-489c-ae27-abfacd154886)
+
 # Welcome to My SwiftUI Authentication App Called OnbordMe
 
 This is a simple SwiftUI-based authentication UI featuring a **Welcome Page** where users can enter their **email and password** to sign in or create a new account.
@@ -44,10 +46,4 @@ This project was inspired by [this post](https://x.com/samichougle_/status/18736
 - Add password validation.
 - Improve UI accessibility.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-**Happy coding! 🚀**
 
